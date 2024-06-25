@@ -1,8 +1,3 @@
-@tailwind
-
-
-
-
 body {
   background-color: #0d1b2a;
 }
@@ -12,7 +7,7 @@ body {
 }
 
 .gameTopic {
-  color: #219ebc;
+  color: #a6ff00;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 60px;
   background: linear-gradient(#ddbebe2d, #154b64);
@@ -24,7 +19,7 @@ body {
   margin-bottom: 50px;
   padding: auto;
   display: flex;
-  width: 400px;
+  width: auto;
 }
 
 .board {
@@ -44,6 +39,10 @@ body {
   cursor: pointer;
 }
 
+.boxes img {
+  margin: 20px 20px;
+}
+
 .btn {
   cursor: pointer;
   outline: none;
@@ -57,4 +56,16 @@ body {
   color: #26ffcb;
   margin-top: 25px;
   margin-bottom: 50px;
+}
+
+.board {
+  height: 600px;
+  width: 564px;
+  display: flex;
+  margin: auto;
+}
+
+.gameTopic img{
+ padding: 20px 20px;
+ height: 50px;
 }
